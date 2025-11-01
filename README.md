@@ -5,7 +5,7 @@ The versions of Chisel, Scala, etc., are shown in the file "build.sbt". To run t
 # Test Command
 Choose one of these commands to generate verilog or test the FFT circuit.
 ```
-# Generate verilog from the files in ./src/main/scala/FFT_GenVerilog.scala
+# Generate verilog from the file ./src/main/scala/FFT_GenVerilog.scala
 make verilog
 
 # Test with verilator
