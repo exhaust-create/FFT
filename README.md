@@ -1,5 +1,5 @@
 # FFT
-FFT written in Chisel, tested with iverilog and verilator.
+FFT written in Chisel, tested with iverilog and verilator. The highest frequency of this FFT is 263 kHz.
 # Environment
 The versions of Chisel, Scala, etc., are shown in the file "build.sbt". To run the test based on Chisel, you should have installed Chisel, Scala, *iverilog* or *verilator* first. Otherwise, you can run the file "./generated/FFT.v" on Vivado, but the testbench should be written by yourself.
 # Test Command
